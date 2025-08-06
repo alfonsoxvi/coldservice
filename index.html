@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cold Service - Aire Acondicionado</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0056b3;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      display: block;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #004080;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #007BFF;
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* WhatsApp button */
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50px;
+      padding: 14px 20px;
+      font-size: 16px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 999;
+      display: flex;
+      align-items: center;
+    }
+
+    .whatsapp-button img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav a {
+        padding: 12px;
+        text-align: center;
+        width: 100%;
+      }
+
+      .container {
+        padding: 20px 15px;
+      }
+
+      .whatsapp-button {
+        font-size: 14px;
+        padding: 10px 16px;
+      }
+
+      .whatsapp-button img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cold Service</h1>
+    <p>Venta e instalación de aire acondicionado en Montevideo</p>
+  </header>
+
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="container" id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Venta de aires acondicionados Split y portátiles</li>
+      <li>Instalación profesional con garantía</li>
+      <li>Mantenimiento y recarga de gas</li>
+      <li>Asesoramiento personalizado según tu espacio</li>
+    </ul>
+  </section>
+
+  <section class="container" id="nosotros">
+    <h2>¿Quiénes somos?</h2>
+    <p>En Cold Service contamos con años de experiencia brindando soluciones de climatización para hogares, oficinas y locales comerciales. Nuestro equipo técnico garantiza instalaciones seguras, limpias y eficientes.</p>
+  </section>
+
+  <section class="container" id="contacto">
+    <h2>Contacto</h2>
+    <p>📍 Dirección: Acevedo Díaz 2266 BIS, 11800 Montevideo, Departamento de Montevideo</p>
+    <p>📞 Teléfono: 2208 9453</p>
+    <p>🕒 Horario: Abierto ⋅ Cierra a las 6 p. m.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cold Service. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Botón de WhatsApp -->
+  <a
+    class="whatsapp-button"
+    href="https://wa.me/59822089453?text=Hola%2C+quiero+más+información+sobre+instalación+de+aire+acondicionado"
+    target="_blank"
+    rel="noopener"
+  >
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    WhatsApp
+  </a>
+
+</body>
+</html>
+
